@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: .
-          file: ./ContainerFIle
+          file: ./ContainerFile
           push: true
           tags: |
             ghcr.io/isolatedlun/sw-dockerimage:latest
